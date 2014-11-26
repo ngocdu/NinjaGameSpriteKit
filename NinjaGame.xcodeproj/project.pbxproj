@@ -15,6 +15,7 @@
 		8B37E1121A25B0BC0057FF56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B37E1111A25B0BC0057FF56 /* Images.xcassets */; };
 		8B37E1151A25B0BC0057FF56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B37E1131A25B0BC0057FF56 /* LaunchScreen.xib */; };
 		8B37E1211A25B0BD0057FF56 /* NinjaGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37E1201A25B0BD0057FF56 /* NinjaGameTests.swift */; };
+		8B37E12B1A25B9F00057FF56 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37E12A1A25B9F00057FF56 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		8B37E11A1A25B0BD0057FF56 /* NinjaGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinjaGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B37E11F1A25B0BD0057FF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B37E1201A25B0BD0057FF56 /* NinjaGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaGameTests.swift; sourceTree = "<group>"; };
+		8B37E12A1A25B9F00057FF56 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				8B37E1111A25B0BC0057FF56 /* Images.xcassets */,
 				8B37E1131A25B0BC0057FF56 /* LaunchScreen.xib */,
 				8B37E1041A25B0BC0057FF56 /* Supporting Files */,
+				8B37E12A1A25B9F00057FF56 /* GameOverScene.swift */,
 			);
 			path = NinjaGame;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			files = (
 				8B37E10B1A25B0BC0057FF56 /* GameScene.swift in Sources */,
 				8B37E10D1A25B0BC0057FF56 /* GameViewController.swift in Sources */,
+				8B37E12B1A25B9F00057FF56 /* GameOverScene.swift in Sources */,
 				8B37E1071A25B0BC0057FF56 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +419,7 @@
 				8B37E1261A25B0BD0057FF56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B37E1271A25B0BD0057FF56 /* Build configuration list for PBXNativeTarget "NinjaGameTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				8B37E1291A25B0BD0057FF56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
